@@ -1,3 +1,4 @@
+    # This module creates a VM in Azure.
     resource "azurerm_network_interface" "nicj" {
         name                = var.nic_name
         location            = var.location
