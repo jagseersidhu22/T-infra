@@ -1,4 +1,4 @@
-# RG module for Azure
+# RG module for Azure infra
 
 resource "azurerm_resource_group" "rgj" {
   name     = var.resource_group_name
